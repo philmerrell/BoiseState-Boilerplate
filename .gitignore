@@ -1,0 +1,10 @@
+*.sw*
+*~
+build/
+bin/
+node_modules/
+vendor/
+coverage/
+
+.idea
+.DS_Store
