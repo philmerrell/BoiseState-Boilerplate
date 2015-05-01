@@ -7,11 +7,12 @@
       'templates-common',
       'boisestate.home',
       'boisestate.about',
+      'boisestate.other',
       'ui.router'
     ])
 
     .config( function myAppConfig ( $stateProvider, $urlRouterProvider ) {
-      $urlRouterProvider.otherwise( '/home' );
+      $urlRouterProvider.otherwise( '/' );
     })
 
     .run( function run () {
