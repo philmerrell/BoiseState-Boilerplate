@@ -8,6 +8,7 @@
       'boisestate.home',
       'boisestate.about',
       'boisestate.other',
+      'boisestate.another',
       'ui.router'
     ])
 
